@@ -59,8 +59,7 @@ Contribution to revenue
 ## 📸 Dashboard Screenshots
 
 ### 🟦 Sales Overview
-![Sales Overview](Images/sales_
-overview.png)
+![Sales Overview](Images/sales_overview.png)
 
 ### 🟩 Customer Insights
 ![Customer Insights](Images/customer_insights.png)
