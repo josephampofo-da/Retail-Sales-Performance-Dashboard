@@ -1,62 +1,93 @@
-# Retail-Sales-Performance-Dashboard
-A fully interactive analytics dashboard that provides insights into retail sales performance, customer behavior, and business growth trends. This project demonstrates practical end-to-end data analytics: cleaning, modeling, analysis, DAX, visualization, and storytelling.
-📌 Project Overview
+# Retail Sales Performance & Business Intelligence Dashboard
 
-Retail businesses generate data every day — orders, customers, products, and sales. But raw data alone cannot guide strategic decisions.
-This project solves that by transforming messy, unstructured retail data into a professional BI dashboard that enables stakeholders to:
-Track revenue and sales performance
-Understand customer behavior
-Identify best-selling products
-Monitor store or category performance
-Forecast sales
-Perform segmentation and what-if analysis
+## Project Overview
 
-The dashboard is designed for business owners, sales managers, marketing teams, and analysts who want fast insights to grow revenue.
-🎯 Business Problem
-The retail company needed a centralized analytics solution to answer these key questions:
-How are sales performing across different months, products, and customer groups?
-Which products contribute the most to revenue?
-How many new vs. repeat customers are we getting?
-What customer segments drive the highest order value?
-What would happen if discounts were increased or decreased?
+**Role:** Data Analyst
+**Tools:** Microsoft Power BI, Power Query, DAX
+**Focus:** Sales Performance, Product Analysis, Customer Insights & Business Reporting
 
-🧹 Data Cleaning & Transformation (Power Query)
+### Business Problem
 
-Power Query was used to:
-Remove duplicates
-Clean column names
-Fix data types (dates, decimals, text)
-Split product hierarchy (category → subcategory → product)
-Create a proper calendar table
-Merge customer and orders tables
-Handle missing values
-Add custom calculated columns
-📊 Dashboard Features
+A retail business had sales, customer, product and order data but lacked an interactive reporting solution for monitoring business performance. Management needed a simple way to understand revenue trends, product performance, customer behaviour and regional sales performance.
 
-✔ 1. Sales Overview Page
-Total Sales
-Total Orders
-Total Customers
-Average Order Value
-Sales Trend by Month
-Top 10 Products
-Sales by Region or Category
+### Objective
 
-✔ 2. Customer Insights Page
-New vs. Repeat Customers (DAX)
-Customer Lifetime Value
-Customer Segmentation
-Top Customer Profiles
-Repeat Purchase Behavior Analysis
+Develop an interactive Power BI dashboard that transforms raw retail data into actionable business insights and enables management to monitor key performance indicators and identify areas of growth and underperformance.
 
-✔ 3. Product Performance Page
-Best-selling products
-Low-selling products
-Contribution to revenue
+### What I Built
 
-## 📸 Dashboard Screenshots
+I cleaned and transformed the underlying data using **Power Query**, developed a structured Power BI data model, and created **DAX measures** to support interactive business analysis.
 
-## 📸 Dashboard Screenshots
+The final solution contains multiple analytical views:
+
+* **Executive Summary** — overall sales performance and KPIs
+* **Product & Category Insights** — product, category and profitability analysis
+* **Customer/Order Insights** — customer behaviour and order performance
+* **Product Drill-Through** — detailed product-level analysis
+
+### Key KPIs
+
+The dashboard tracks:
+
+* Total Sales
+* Total Cost
+* Total Orders
+* Total Quantity
+* Average Revenue per Customer
+* Profit
+* Profit Margin
+* Average Order Value
+* Total Customers
+* Returning Customers
+* New Customers MTD
+
+### Key Analysis
+
+The dashboard enables users to:
+
+* Monitor monthly sales trends
+* Identify the top-selling products
+* Compare sales across categories and sub-categories
+* Evaluate regional sales performance
+* Analyse product profitability and profit margins
+* Examine customer value and returning-customer behaviour
+* Compare new versus returning customers
+* Drill into individual product performance
+* Filter results by product, category, region and date
+
+### Business Value
+
+The dashboard converts raw transactional data into a management reporting tool that can help decision-makers:
+
+**Identify high-performing products** → support inventory and sales decisions
+
+**Monitor category and regional performance** → identify growth opportunities
+
+**Track profitability** → understand which products contribute most to business performance
+
+**Monitor customer behaviour** → support retention and customer-growth strategies
+
+**Track trends over time** → identify changes in business performance earlier
+
+### Deliverables
+
+* Interactive Power BI dashboard
+* Data cleaning and transformation
+* Data model
+* DAX calculations and KPIs
+* Product and category analysis
+* Customer and order analysis
+* Interactive filters and drill-through analysis
+* Business-focused visual reporting
+
+### Portfolio
+
+**GitHub:** github.com/josephampofo-da/Retail-Sales-Performance-Dashboard
+
+### Why This Project Matters
+
+This project demonstrates my ability to move beyond creating visualizations and use **Excel/Power BI-style business intelligence techniques to turn raw business data into decision-ready reporting.**
+
 
 ### 🟦 Sales Overview
 ![Sales Overview](Images/sales_overview.png)
